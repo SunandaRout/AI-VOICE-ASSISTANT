@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title> ECHO </title>
+
+<style>
+    body {
+        background: #0f172a;
+        font-family: Arial;
+        text-align: center;
+        color: white;
+    }
+
+    h1 {
+        margin-top: 50px;
+    }
+
+    /* 3D Button */
+    #mic {
+        margin-top: 80px;
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        border: none;
+        font-size: 50px;
+        cursor: pointer;
+        
+        background: #1e293b;
+
+        /* 3D effect */
+        box-shadow: 
+            10px 10px 20px #020617,
+            -10px -10px 20px #334155;
+        
+        transition: 0.2s;
+    }
+
+    /* Click effect */
+    #mic:active {
+        box-shadow: 
+            inset 10px 10px 20px #020617,
+            inset -10px -10px 20px #334155;
+    }
+
+    /* Glow animation */
+    .active {
+        box-shadow: 
+            0 0 20px #22c55e,
+            0 0 40px #22c55e;
+    }
+
+    #text {
+        margin-top: 40px;
+        font-size: 20px;
+    }
+</style>
+</head>
+
+<body>
+
+<h1>🤖 ECHO</h1>
+
+<button id="mic">🎙️</button>
+
+<p id="text">Click mic and speak...</p>
+
+<script>
+    const mic = document.getElementById("mic");
+    const text = document.getElementById("text");
+
+    const recognition = new (window.SpeechRecognition || window.webkitSpeechRecognition)();
+
+    mic.onclick = () => {
+        mic.classList.add("active");
+        recognition.start();
+    };
+
+    recognition.onstart = () => {
+        text.innerText = "Listening...";
+    };
+
+    recognition.onresult = (event) => {
+        let command = event.results[0][0].transcript;
+        text.innerText = "You said: " + command;
+        mic.classList.remove("active");
+
+        if (command.includes("hello")) {
+            speak("Hello, how can I help you?");
+        }
+        else if (command.includes("time")) {
+            let time = new Date().toLocaleTimeString();
+            speak("The time is " + time);
+        }
+        else {
+            
+        }
+    };
+
+    function speak(message) {
+        let speech = new SpeechSynthesisUtterance(message);
+        window.speechSynthesis.speak(speech);
+    }
+</script>
+
+</body>
+</html>
