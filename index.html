@@ -1,107 +1,30 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-<meta charset="UTF-8">
-<title> ECHO </title>
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-<style>
-    body {
-        background: #0f172a;
-        font-family: Arial;
-        text-align: center;
-        color: white;
-    }
+    <title>Sunanda Rout | Aspiring Data Analyst</title>
+    <meta name="description" content="Sunanda Rout — Aspiring Data Analyst skilled in SQL, Python, Power BI and Excel. B.Tech student building data analytics and visualization projects. View projects, skills and resume." />
+    <meta name="theme-color" content="#0F766E" />
 
-    h1 {
-        margin-top: 50px;
-    }
+    <!-- Open Graph -->
+    <meta property="og:title" content="Sunanda Rout | Aspiring Data Analyst" />
+    <meta property="og:description" content="Aspiring Data Analyst skilled in SQL, Python, Power BI and Excel. Explore projects, skills and experience." />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="/og-image.png" />
 
-    /* 3D Button */
-    #mic {
-        margin-top: 80px;
-        width: 150px;
-        height: 150px;
-        border-radius: 50%;
-        border: none;
-        font-size: 50px;
-        cursor: pointer;
-        
-        background: #1e293b;
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Sunanda Rout | Aspiring Data Analyst" />
+    <meta name="twitter:description" content="Aspiring Data Analyst skilled in SQL, Python, Power BI and Excel." />
 
-        /* 3D effect */
-        box-shadow: 
-            10px 10px 20px #020617,
-            -10px -10px 20px #334155;
-        
-        transition: 0.2s;
-    }
-
-    /* Click effect */
-    #mic:active {
-        box-shadow: 
-            inset 10px 10px 20px #020617,
-            inset -10px -10px 20px #334155;
-    }
-
-    /* Glow animation */
-    .active {
-        box-shadow: 
-            0 0 20px #22c55e,
-            0 0 40px #22c55e;
-    }
-
-    #text {
-        margin-top: 40px;
-        font-size: 20px;
-    }
-</style>
-</head>
-
-<body>
-
-<h1>🤖 ECHO</h1>
-
-<button id="mic">🎙️</button>
-
-<p id="text">Click mic and speak...</p>
-
-<script>
-    const mic = document.getElementById("mic");
-    const text = document.getElementById("text");
-
-    const recognition = new (window.SpeechRecognition || window.webkitSpeechRecognition)();
-
-    mic.onclick = () => {
-        mic.classList.add("active");
-        recognition.start();
-    };
-
-    recognition.onstart = () => {
-        text.innerText = "Listening...";
-    };
-
-    recognition.onresult = (event) => {
-        let command = event.results[0][0].transcript;
-        text.innerText = "You said: " + command;
-        mic.classList.remove("active");
-
-        if (command.includes("hello")) {
-            speak("Hello, how can I help you?");
-        }
-        else if (command.includes("time")) {
-            let time = new Date().toLocaleTimeString();
-            speak("The time is " + time);
-        }
-        else {
-            
-        }
-    };
-
-    function speak(message) {
-        let speech = new SpeechSynthesisUtterance(message);
-        window.speechSynthesis.speak(speech);
-    }
-</script>
-
-</body>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
 </html>
