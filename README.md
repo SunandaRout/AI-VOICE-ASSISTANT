@@ -1,123 +1,249 @@
 <div align="center">
 
-# 📊 DATA ANALYTICS PROJECTS
+# 📊 Sunanda Rout | Data Analytics Portfolio
 
-### Transforming Raw Data into Meaningful Insights
+### Turning Raw Data into Meaningful Insights 🚀
 
-![Python](https://img.shields.io/badge/Python-Data%20Analysis-blue?style=for-the-badge&logo=python)
-![SQL](https://img.shields.io/badge/SQL-Database-orange?style=for-the-badge&logo=mysql)
-![Power BI](https://img.shields.io/badge/Power%20BI-Visualization-yellow?style=for-the-badge&logo=powerbi)
-![Excel](https://img.shields.io/badge/Excel-Data%20Analysis-green?style=for-the-badge&logo=microsoft-excel)
+<img src="https://komarev.com/ghpvc/?username=SunandaRout&label=Profile%20Views&color=0e75b6&style=flat" alt="Profile Views" />
 
-<br>
-
-<img src="YOUR_BANNER_IMAGE_LINK" width="100%">
+[![GitHub](https://img.shields.io/badge/GitHub-SunandaRout-181717?style=for-the-badge\&logo=github)](https://github.com/SunandaRout)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Sunanda%20Rout-0A66C2?style=for-the-badge\&logo=linkedin\&logoColor=white)](https://www.linkedin.com/in/sunanda-rout-038091329/)
+[![Email](https://img.shields.io/badge/Email-Contact%20Me-EA4335?style=for-the-badge\&logo=gmail\&logoColor=white)](mailto:routj345@gmail.com)
 
 </div>
 
 ---
 
-## 👋 About This Repository
+# 👋 About Me
 
-Welcome to my **Data Analytics Projects Repository** 🚀
-
-This repository showcases my hands-on Data Analytics projects using **Python, SQL, Power BI, Excel, and Data Visualization**. Each project focuses on analyzing real-world datasets, solving business problems, and discovering meaningful insights from data.
+* 📊 Passionate about **Data Analytics, Data Visualization, and Business Insights**
+* 🐍 Currently working with **Python, SQL, Power BI, and Excel**
+* 📈 Interested in transforming complex datasets into actionable insights
+* 🔍 Exploring **Exploratory Data Analysis (EDA)** and real-world business problems
+* 💡 Ask me about **SQL, Python, Power BI, Pandas, and Data Visualization**
+* 🚀 Currently building projects to strengthen my Data Analytics portfolio
 
 ---
 
-## 🛠️ Tech Stack
+# 🌐 Connect With Me
 
-<div align="center">
+<p align="left">
+<a href="https://github.com/SunandaRout">
+<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
+</a>
+<a href="https://www.linkedin.com/in/sunanda-rout-038091329/">
+<img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
+</a>
+<a href="mailto:routj345@gmail.com">
+<img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/>
+</a>
+</p>
 
-<img src="https://skillicons.dev/icons?i=python,mysql,git,github,vscode&theme=light" />
+---
+
+# 💻 Tech Stack
+
+<p align="left">
+
+<img src="https://skillicons.dev/icons?i=python,mysql,git,github,vscode&theme=dark" />
 
 <br><br>
 
-<img src="https://img.shields.io/badge/Power%20BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black">
-<img src="https://img.shields.io/badge/Microsoft%20Excel-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white">
+<img src="https://img.shields.io/badge/SQL-Data%20Querying-4479A1?style=for-the-badge&logo=mysql&logoColor=white"/>
+<img src="https://img.shields.io/badge/Power%20BI-Data%20Visualization-F2C811?style=for-the-badge&logo=powerbi&logoColor=black"/>
+<img src="https://img.shields.io/badge/Microsoft%20Excel-Data%20Analysis-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white"/>
+<img src="https://img.shields.io/badge/Pandas-Data%20Analysis-150458?style=for-the-badge&logo=pandas&logoColor=white"/>
+<img src="https://img.shields.io/badge/NumPy-Numerical%20Computing-013243?style=for-the-badge&logo=numpy&logoColor=white"/>
+<img src="https://img.shields.io/badge/Matplotlib-Visualization-11557C?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Seaborn-Statistical%20Visualization-4C72B0?style=for-the-badge"/>
 
-</div>
+</p>
 
 ---
 
-# 📂 Featured Projects
+# 📁 Featured Projects
 
-<table>
-<tr>
-<td width="50%">
+## 🛒 Customer Shopping Behavior Analysis
 
-## 🛒 Customer Shopping Behavior
+📌 Analyzing customer demographics, purchasing patterns, product preferences, and spending behavior.
 
-<img src="YOUR_CUSTOMER_DASHBOARD_IMAGE_LINK" width="100%">
+**Tools Used:**
 
-**Tools:** Python • SQL • Power BI
+`Python` `SQL` `Power BI` `Pandas` `Data Visualization`
 
-Analyze customer purchasing patterns, demographics, product preferences, and spending behavior.
+### Key Insights
 
-</td>
+* Customer purchasing behavior analysis
+* Product category performance
+* Spending pattern analysis
+* Customer segmentation
+* Interactive dashboard creation
 
-<td width="50%">
+---
 
 ## 🎬 Netflix Data Analysis
 
-<img src="YOUR_NETFLIX_IMAGE_LINK" width="100%">
+📌 Exploring Netflix content and solving real-world business questions using SQL.
 
-**Tools:** SQL • Data Analysis
+**Tools Used:**
 
-Analyze Netflix movies and TV shows and solve real-world business questions.
+`SQL` `Data Analysis` `Business Problem Solving`
 
-</td>
-</tr>
+### Key Insights
 
-<tr>
-<td width="50%">
+* Movies vs TV Shows analysis
+* Content distribution
+* Ratings and categories
+* Release trends
+* Business-focused SQL queries
+
+---
 
 ## 🦠 COVID-19 Data Exploration
 
-<img src="YOUR_COVID_IMAGE_LINK" width="100%">
+📌 Analyzing global COVID-19 data to understand cases, deaths, infection rates, and vaccination trends.
 
-**Tools:** SQL • Excel
+**Tools Used:**
 
-Explore global COVID-19 cases, deaths, infection rates, and vaccination trends.
+`SQL` `Excel` `Data Analysis`
 
-</td>
+### Key Insights
 
-<td width="50%">
+* Total cases and deaths
+* Country-wise comparisons
+* Infection trends
+* Vaccination analysis
+
+---
 
 ## 🏨 Hotel Booking Analysis
 
-<img src="YOUR_HOTEL_IMAGE_LINK" width="100%">
+📌 Exploring hotel booking data to understand customer behavior and booking patterns.
 
-**Tools:** Python • Pandas • Visualization
+**Tools Used:**
 
-Analyze booking patterns and discover insights into hotel customer behavior.
+`Python` `Pandas` `EDA` `Data Visualization`
 
-</td>
-</tr>
-</table>
+### Key Insights
+
+* Hotel booking patterns
+* Customer behavior
+* Booking trends
+* Exploratory Data Analysis
 
 ---
 
-## 📊 Project Dashboard
+# 🧠 Data Analytics Skills
+
+```text
+📥 Data Collection
+      ↓
+🧹 Data Cleaning
+      ↓
+🔍 Exploratory Data Analysis
+      ↓
+🗄️ SQL Analysis
+      ↓
+🐍 Python & Pandas
+      ↓
+📊 Data Visualization
+      ↓
+💡 Business Insights
+      ↓
+📈 Dashboard & Decision Making
+```
+
+---
+
+# 🛠️ What I Work With
+
+| Category         | Skills                        |
+| ---------------- | ----------------------------- |
+| 🐍 Programming   | Python                        |
+| 🗄️ Database     | SQL, MySQL                    |
+| 📊 Visualization | Power BI, Matplotlib, Seaborn |
+| 📑 Data Analysis | Pandas, NumPy, Excel          |
+| 🔍 Analysis      | EDA, Data Cleaning            |
+| 🛠️ Tools        | VS Code, Git, GitHub          |
+
+---
+
+# 📈 GitHub Stats
+
+<p align="center">
+
+<img src="https://github-readme-stats.vercel.app/api?username=SunandaRout&show_icons=true&theme=tokyonight&hide_border=true" height="170"/>
+
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=SunandaRout&theme=tokyonight&hide_border=true" height="170"/>
+
+</p>
+
+<p align="center">
+
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=SunandaRout&layout=compact&theme=tokyonight&hide_border=true"/>
+
+</p>
+
+---
+
+# 📊 My Contribution Graph
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=SunandaRout&theme=tokyo-night&hide_border=true&area=true" width="100%"/>
+
+---
+
+# 🚀 Repository Structure
+
+```text
+DATA-ANALYTICS-PROJECT/
+│
+├── 📊 Customer Shopping Behavior Analysis
+├── 🎬 Netflix Data Analysis
+├── 🦠 COVID-19 Data Exploration
+├── 🛍️ Retail Sales Analysis
+├── 🏨 Hotel Booking Analysis
+│
+├── 📁 Datasets
+├── 🐍 Python Notebooks
+├── 🗄️ SQL Queries
+├── 📈 Power BI Dashboards
+│
+└── 📄 README.md
+```
+
+---
+
+# 🎯 Current Focus
+
+```text
+🐍 Python for Data Analysis
+🗄️ Advanced SQL
+📊 Power BI Dashboard Development
+📈 Data Visualization
+🔍 Exploratory Data Analysis
+💡 Business Insights & Data Storytelling
+```
+
+---
+
+# ⭐ Support My Work
+
+If you find my projects interesting or useful, please consider:
+
+⭐ **Starring this repository**
+
+🤝 **Connecting with me on LinkedIn**
+
+💬 **Sharing feedback or suggestions**
+
+---
 
 <div align="center">
 
-<img src="YOUR_POWERBI_DASHBOARD_IMAGE_LINK" width="90%">
+### 🚀 "Without data, you're just another person with an opinion."
 
-*Interactive Data Visualization using Power BI*
+**Made with ❤️ by Sunanda Rout**
+
+### 📊 Aspiring Data Analyst | Python | SQL | Power BI | Data Visualization
 
 </div>
-
----
-
-## 📈 Skills Demonstrated
-
-```text
-✓ Data Cleaning
-✓ Exploratory Data Analysis (EDA)
-✓ SQL Queries
-✓ Business Problem Solving
-✓ Data Visualization
-✓ Dashboard Development
-✓ Statistical Analysis
-✓ Data Storytelling
