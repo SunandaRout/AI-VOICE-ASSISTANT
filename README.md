@@ -1,267 +1,123 @@
-# 📊 Data Analytics Projects
+<div align="center">
 
-Welcome to my **Data Analytics Projects Repository**! 🚀
+# 📊 DATA ANALYTICS PROJECTS
 
-This repository contains a collection of projects completed using **Python, SQL, Power BI, Excel, and Data Visualization**. These projects focus on extracting meaningful insights from real-world datasets and solving business problems through data analysis.
+### Transforming Raw Data into Meaningful Insights
 
-## 👨‍💻 About Me
+![Python](https://img.shields.io/badge/Python-Data%20Analysis-blue?style=for-the-badge&logo=python)
+![SQL](https://img.shields.io/badge/SQL-Database-orange?style=for-the-badge&logo=mysql)
+![Power BI](https://img.shields.io/badge/Power%20BI-Visualization-yellow?style=for-the-badge&logo=powerbi)
+![Excel](https://img.shields.io/badge/Excel-Data%20Analysis-green?style=for-the-badge&logo=microsoft-excel)
 
-Hi, I'm **Sunanda Rout**, an aspiring Data Analyst passionate about turning raw data into meaningful insights.
+<br>
 
-### 🛠️ Skills
+<img src="YOUR_BANNER_IMAGE_LINK" width="100%">
 
-* Python
-* SQL
-* Power BI
-* Microsoft Excel
-* Pandas
-* NumPy
-* Matplotlib
-* Seaborn
-* Data Cleaning
-* Exploratory Data Analysis (EDA)
-* Data Visualization
+</div>
 
 ---
 
-# 📁 Projects
+## 👋 About This Repository
 
-## 1️⃣ Customer Shopping Behavior Analysis
+Welcome to my **Data Analytics Projects Repository** 🚀
 
-### 📌 Overview
-
-This project analyzes customer shopping behavior to identify patterns, trends, customer preferences, and purchasing behavior.
-
-### 🔧 Tools Used
-
-* Python
-* Pandas
-* Matplotlib
-* Seaborn
-* SQL
-* Power BI
-
-### 📊 Key Analysis
-
-* Customer demographics
-* Purchase behavior
-* Product categories
-* Spending patterns
-* Customer preferences
-
-### 📂 Files
-
-* `Customer_Shopping_Behavior_Analysis.ipynb`
-* `customer_shopping_behavior.csv`
-* `customer_behavior_dashboard.pbix`
-* `customer_behavior_sql_queries.sql`
+This repository showcases my hands-on Data Analytics projects using **Python, SQL, Power BI, Excel, and Data Visualization**. Each project focuses on analyzing real-world datasets, solving business problems, and discovering meaningful insights from data.
 
 ---
 
-## 2️⃣ COVID-19 Data Exploration
+## 🛠️ Tech Stack
 
-### 📌 Overview
+<div align="center">
 
-Exploratory Data Analysis of COVID-19 data using SQL to understand the impact and trends of the pandemic.
+<img src="https://skillicons.dev/icons?i=python,mysql,git,github,vscode&theme=light" />
 
-### 🔧 Tools Used
+<br><br>
 
-* SQL
-* Excel
+<img src="https://img.shields.io/badge/Power%20BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black">
+<img src="https://img.shields.io/badge/Microsoft%20Excel-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white">
 
-### 📊 Key Analysis
-
-* Total cases
-* Total deaths
-* Vaccination analysis
-* Country-wise comparisons
-* Infection trends
-
-### 📂 Files
-
-* `COVID Portfolio Project - Data Exploration.sql`
-* `CovidVaccinations.xlsx`
+</div>
 
 ---
 
-## 3️⃣ Netflix Data Analysis
+# 📂 Featured Projects
 
-### 📌 Overview
+<table>
+<tr>
+<td width="50%">
 
-Analysis of the Netflix dataset to solve business questions and discover insights about movies and TV shows.
+## 🛒 Customer Shopping Behavior
 
-### 🔧 Tools Used
+<img src="YOUR_CUSTOMER_DASHBOARD_IMAGE_LINK" width="100%">
 
-* SQL
-* CSV Dataset
+**Tools:** Python • SQL • Power BI
 
-### 📊 Key Analysis
+Analyze customer purchasing patterns, demographics, product preferences, and spending behavior.
 
-* Movies vs TV Shows
-* Content categories
-* Ratings analysis
-* Release trends
-* Business problem solutions
+</td>
 
-### 📂 Files
+<td width="50%">
 
-* `Business Problems Netflix.sql`
-* `Solutions of 15 business problems.sql`
-* `netflix_titles.csv`
+## 🎬 Netflix Data Analysis
 
----
+<img src="YOUR_NETFLIX_IMAGE_LINK" width="100%">
 
-## 4️⃣ Retail Sales Analysis
+**Tools:** SQL • Data Analysis
 
-### 📌 Overview
+Analyze Netflix movies and TV shows and solve real-world business questions.
 
-This project analyzes retail sales data using SQL to identify sales trends and answer important business questions.
+</td>
+</tr>
 
-### 🔧 Tools Used
+<tr>
+<td width="50%">
 
-* SQL
-* CSV Dataset
+## 🦠 COVID-19 Data Exploration
 
-### 📊 Key Analysis
+<img src="YOUR_COVID_IMAGE_LINK" width="100%">
 
-* Sales performance
-* Customer orders
-* Product analysis
-* Revenue trends
+**Tools:** SQL • Excel
 
-### 📂 Files
+Explore global COVID-19 cases, deaths, infection rates, and vaccination trends.
 
-* `SQL - Retail Sales Analysis_utf.csv`
-* `Schemas.sql`
+</td>
 
----
+<td width="50%">
 
-## 5️⃣ Hotel Booking Analysis
+## 🏨 Hotel Booking Analysis
 
-### 📌 Overview
+<img src="YOUR_HOTEL_IMAGE_LINK" width="100%">
 
-Analysis of hotel booking data to understand booking patterns and customer behavior.
+**Tools:** Python • Pandas • Visualization
 
-### 🔧 Tools Used
+Analyze booking patterns and discover insights into hotel customer behavior.
 
-* Python
-* CSV Dataset
-* Data Analysis
-
-### 📂 Files
-
-* `hotel_bookings.csv`
-* `hotel_guests_dataset.csv`
+</td>
+</tr>
+</table>
 
 ---
 
-# 🧰 Technology Stack
+## 📊 Project Dashboard
 
-| Technology    | Purpose                   |
-| ------------- | ------------------------- |
-| 🐍 Python     | Data Analysis             |
-| 🐼 Pandas     | Data Manipulation         |
-| 🔢 NumPy      | Numerical Operations      |
-| 🗄️ SQL       | Data Querying             |
-| 📊 Power BI   | Interactive Dashboards    |
-| 📈 Matplotlib | Data Visualization        |
-| 📉 Seaborn    | Statistical Visualization |
-| 📗 Excel      | Data Handling             |
+<div align="center">
+
+<img src="YOUR_POWERBI_DASHBOARD_IMAGE_LINK" width="90%">
+
+*Interactive Data Visualization using Power BI*
+
+</div>
 
 ---
 
-# 📂 Repository Structure
+## 📈 Skills Demonstrated
 
 ```text
-DATA-ANALYTICS-PROJECT/
-│
-├── Customer_Shopping_Behavior_Analysis.ipynb
-├── customer_shopping_behavior.csv
-├── customer_behavior_dashboard.pbix
-├── customer_behavior_sql_queries.sql
-│
-├── COVID Portfolio Project - Data Exploration.sql
-├── CovidVaccinations.xlsx
-│
-├── Business Problems Netflix.sql
-├── Solutions of 15 business problems.sql
-├── netflix_titles.csv
-│
-├── SQL - Retail Sales Analysis_utf.csv
-├── Schemas.sql
-│
-├── hotel_bookings.csv
-├── hotel_guests_dataset.csv
-│
-├── README.md
-└── Other Project Files
-```
-
----
-
-# 🚀 Getting Started
-
-### 1. Clone the Repository
-
-```bash
-git clone https://github.com/SunandaRout/DATA-ANALYTICS-PROJECT.git
-```
-
-### 2. Navigate to the Project Folder
-
-```bash
-cd DATA-ANALYTICS-PROJECT
-```
-
-### 3. Install Python Dependencies
-
-```bash
-pip install pandas numpy matplotlib seaborn jupyter
-```
-
-### 4. Run Jupyter Notebook
-
-```bash
-jupyter notebook
-```
-
----
-
-# 📊 Key Learnings
-
-Through these projects, I developed practical experience in:
-
-* Data Cleaning and Preprocessing
-* Exploratory Data Analysis
-* SQL Queries and Business Problem Solving
-* Dashboard Development using Power BI
-* Data Visualization
-* Finding Insights from Real-World Data
-* Customer and Sales Analysis
-
----
-
-# 🔗 Portfolio
-
-🌐 **Live Portfolio:** https://sunandarout.github.io/DATA-ANALYTICS-PROJECT/
-
-💻 **GitHub:** https://github.com/SunandaRout
-
-📧 **Email:** [routj345@gmail.com](mailto:routj345@gmail.com)
-
-🔗 **LinkedIn:** https://www.linkedin.com/in/sunanda-rout-038091329/
-
----
-
-# 🤝 Connect With Me
-
-If you like my projects or would like to collaborate, feel free to connect with me!
-
-⭐ **If you found this repository useful, please consider giving it a star!**
-
----
-
-### 👨‍💻 Author
-
-**Sunanda Rout**
-*Aspiring Data Analyst | Python | SQL | Power BI | Data Visualization*
+✓ Data Cleaning
+✓ Exploratory Data Analysis (EDA)
+✓ SQL Queries
+✓ Business Problem Solving
+✓ Data Visualization
+✓ Dashboard Development
+✓ Statistical Analysis
+✓ Data Storytelling
