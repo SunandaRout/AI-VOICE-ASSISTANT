@@ -1,148 +1,267 @@
-# Sunanda Rout — Portfolio
+# 📊 Data Analytics Projects
 
-A personal portfolio website built with **React + Vite + Tailwind CSS**, generated from your resume.
+Welcome to my **Data Analytics Projects Repository**! 🚀
 
-## 1. Run it locally
+This repository contains a collection of projects completed using **Python, SQL, Power BI, Excel, and Data Visualization**. These projects focus on extracting meaningful insights from real-world datasets and solving business problems through data analysis.
 
-You'll need [Node.js](https://nodejs.org) 18+ installed.
+## 👨‍💻 About Me
+
+Hi, I'm **Sunanda Rout**, an aspiring Data Analyst passionate about turning raw data into meaningful insights.
+
+### 🛠️ Skills
+
+* Python
+* SQL
+* Power BI
+* Microsoft Excel
+* Pandas
+* NumPy
+* Matplotlib
+* Seaborn
+* Data Cleaning
+* Exploratory Data Analysis (EDA)
+* Data Visualization
+
+---
+
+# 📁 Projects
+
+## 1️⃣ Customer Shopping Behavior Analysis
+
+### 📌 Overview
+
+This project analyzes customer shopping behavior to identify patterns, trends, customer preferences, and purchasing behavior.
+
+### 🔧 Tools Used
+
+* Python
+* Pandas
+* Matplotlib
+* Seaborn
+* SQL
+* Power BI
+
+### 📊 Key Analysis
+
+* Customer demographics
+* Purchase behavior
+* Product categories
+* Spending patterns
+* Customer preferences
+
+### 📂 Files
+
+* `Customer_Shopping_Behavior_Analysis.ipynb`
+* `customer_shopping_behavior.csv`
+* `customer_behavior_dashboard.pbix`
+* `customer_behavior_sql_queries.sql`
+
+---
+
+## 2️⃣ COVID-19 Data Exploration
+
+### 📌 Overview
+
+Exploratory Data Analysis of COVID-19 data using SQL to understand the impact and trends of the pandemic.
+
+### 🔧 Tools Used
+
+* SQL
+* Excel
+
+### 📊 Key Analysis
+
+* Total cases
+* Total deaths
+* Vaccination analysis
+* Country-wise comparisons
+* Infection trends
+
+### 📂 Files
+
+* `COVID Portfolio Project - Data Exploration.sql`
+* `CovidVaccinations.xlsx`
+
+---
+
+## 3️⃣ Netflix Data Analysis
+
+### 📌 Overview
+
+Analysis of the Netflix dataset to solve business questions and discover insights about movies and TV shows.
+
+### 🔧 Tools Used
+
+* SQL
+* CSV Dataset
+
+### 📊 Key Analysis
+
+* Movies vs TV Shows
+* Content categories
+* Ratings analysis
+* Release trends
+* Business problem solutions
+
+### 📂 Files
+
+* `Business Problems Netflix.sql`
+* `Solutions of 15 business problems.sql`
+* `netflix_titles.csv`
+
+---
+
+## 4️⃣ Retail Sales Analysis
+
+### 📌 Overview
+
+This project analyzes retail sales data using SQL to identify sales trends and answer important business questions.
+
+### 🔧 Tools Used
+
+* SQL
+* CSV Dataset
+
+### 📊 Key Analysis
+
+* Sales performance
+* Customer orders
+* Product analysis
+* Revenue trends
+
+### 📂 Files
+
+* `SQL - Retail Sales Analysis_utf.csv`
+* `Schemas.sql`
+
+---
+
+## 5️⃣ Hotel Booking Analysis
+
+### 📌 Overview
+
+Analysis of hotel booking data to understand booking patterns and customer behavior.
+
+### 🔧 Tools Used
+
+* Python
+* CSV Dataset
+* Data Analysis
+
+### 📂 Files
+
+* `hotel_bookings.csv`
+* `hotel_guests_dataset.csv`
+
+---
+
+# 🧰 Technology Stack
+
+| Technology    | Purpose                   |
+| ------------- | ------------------------- |
+| 🐍 Python     | Data Analysis             |
+| 🐼 Pandas     | Data Manipulation         |
+| 🔢 NumPy      | Numerical Operations      |
+| 🗄️ SQL       | Data Querying             |
+| 📊 Power BI   | Interactive Dashboards    |
+| 📈 Matplotlib | Data Visualization        |
+| 📉 Seaborn    | Statistical Visualization |
+| 📗 Excel      | Data Handling             |
+
+---
+
+# 📂 Repository Structure
+
+```text
+DATA-ANALYTICS-PROJECT/
+│
+├── Customer_Shopping_Behavior_Analysis.ipynb
+├── customer_shopping_behavior.csv
+├── customer_behavior_dashboard.pbix
+├── customer_behavior_sql_queries.sql
+│
+├── COVID Portfolio Project - Data Exploration.sql
+├── CovidVaccinations.xlsx
+│
+├── Business Problems Netflix.sql
+├── Solutions of 15 business problems.sql
+├── netflix_titles.csv
+│
+├── SQL - Retail Sales Analysis_utf.csv
+├── Schemas.sql
+│
+├── hotel_bookings.csv
+├── hotel_guests_dataset.csv
+│
+├── README.md
+└── Other Project Files
+```
+
+---
+
+# 🚀 Getting Started
+
+### 1. Clone the Repository
 
 ```bash
-# 1. Install dependencies
-npm install
-
-# 2. Start the dev server
-npm run dev
+git clone https://github.com/SunandaRout/DATA-ANALYTICS-PROJECT.git
 ```
 
-Then open the local URL Vite prints (usually `http://localhost:5173`).
-
-To build a production version:
+### 2. Navigate to the Project Folder
 
 ```bash
-npm run build   # outputs to /dist
-npm run preview # preview the production build locally
+cd DATA-ANALYTICS-PROJECT
 ```
 
-## 2. Project structure
+### 3. Install Python Dependencies
 
-```
-src/
-├── components/     Navbar, Footer, BackToTop, DashboardMark (hero visual)
-├── sections/        Hero, About, Skills, Education, Experience,
-│                     Projects, Certifications, Contact
-├── data/
-│   └── profile.js   ALL your content lives here — name, skills, projects,
-│                     education, experience, socials, contact info
-├── hooks/
-│   └── useReveal.js scroll-in animation hook
-├── styles/
-│   └── index.css    Tailwind + global styles
-├── App.jsx
-└── main.jsx
-```
-
-## 3. Update your content
-
-Almost everything on the site is driven by **`src/data/profile.js`**.
-Open that file and edit the plain text/arrays — no need to touch any
-component to change your bio, skills, education, experience, or project
-descriptions.
-
-## 4. Replace the resume PDF
-
-Your uploaded resume has already been placed at `public/resume.pdf`, so the
-"Download Resume" buttons work out of the box.
-
-To swap in an updated resume, replace `public/resume.pdf` with your new file
-(keep the same filename), or change the path in `src/data/profile.js`:
-
-```js
-resumeFile: "/resume.pdf",
-```
-
-## 5. Add a profile photo or project images
-
-The site currently ships without a headshot or project screenshots (none
-were in your resume, so none were invented). To add them:
-
-1. Drop image files into `public/` (e.g. `public/profile.jpg`).
-2. Reference them with an absolute path, e.g. `<img src="/profile.jpg" />`.
-3. For the hero, you could swap `DashboardMark.jsx` for an `<img>` tag, or
-   keep the SVG dashboard as a graphic-only hero.
-4. For projects, add an `image` field to each project object in
-   `src/data/profile.js` and render it inside the project card in
-   `src/sections/Projects.jsx`.
-
-## 6. GitHub, LinkedIn and email links
-
-These all live at the top of `src/data/profile.js`:
-
-```js
-socials: {
-  github: "https://github.com/SunandaRout",
-  linkedin: "https://www.linkedin.com/in/sunanda-rout-038091329",
-},
-email: "routj345@gmail.com",
-```
-
-Change the values and every button/link on the site updates automatically.
-
-As you finish each of the three data-analyst projects on your resume (Sales
-Dashboard, Netflix Data Analysis, Customer Churn Analysis), add the real
-repo URL to that project's `github` field (and a `demo` field if you deploy
-a live version) in the same file — currently they're `null` so no fake
-links are shown.
-
-## 7. Connect the contact form
-
-The contact form currently opens the visitor's email client with their
-message pre-filled (no backend required, but it depends on the visitor
-having a mail client configured). To collect submissions directly instead:
-
-**Option A — Formspree (easiest, no code)**
-1. Create a free form at [formspree.io](https://formspree.io).
-2. In `src/sections/Contact.jsx`, replace the `handleSubmit` logic with a
-   `fetch` POST to your Formspree endpoint, or simply set the `<form>`'s
-   `action` to your Formspree URL and `method="POST"`.
-
-**Option B — EmailJS**
-1. Set up a service/template at [emailjs.com](https://www.emailjs.com).
-2. Install `@emailjs/browser` and call `emailjs.send(...)` inside
-   `handleSubmit`.
-
-## 8. Deploy
-
-**Vercel**
 ```bash
-npm i -g vercel
-vercel
+pip install pandas numpy matplotlib seaborn jupyter
 ```
-Follow the prompts — Vercel auto-detects Vite.
 
-**Netlify**
+### 4. Run Jupyter Notebook
+
 ```bash
-npm run build
+jupyter notebook
 ```
-Drag the generated `dist/` folder into [app.netlify.com/drop](https://app.netlify.com/drop),
-or connect your GitHub repo with build command `npm run build` and publish
-directory `dist`.
 
-**GitHub Pages**
-1. `npm install --save-dev gh-pages`
-2. In `package.json`, add:
-   ```json
-   "homepage": "https://<your-username>.github.io/<repo-name>",
-   "scripts": {
-     "predeploy": "npm run build",
-     "deploy": "gh-pages -d dist"
-   }
-   ```
-3. In `vite.config.js`, set `base: "/<repo-name>/"`.
-4. Run `npm run deploy`.
+---
 
-## 9. What was intentionally left out
+# 📊 Key Learnings
 
-Your resume didn't list an achievements/hackathons section, a profile
-photo, or public repo/demo links for the three projects — so none were
-invented. Add them to `src/data/profile.js` (and, for achievements, a new
-`achievements` array + section) whenever you have them.
+Through these projects, I developed practical experience in:
+
+* Data Cleaning and Preprocessing
+* Exploratory Data Analysis
+* SQL Queries and Business Problem Solving
+* Dashboard Development using Power BI
+* Data Visualization
+* Finding Insights from Real-World Data
+* Customer and Sales Analysis
+
+---
+
+# 🔗 Portfolio
+
+🌐 **Live Portfolio:** https://sunandarout.github.io/DATA-ANALYTICS-PROJECT/
+
+💻 **GitHub:** https://github.com/SunandaRout
+
+📧 **Email:** [routj345@gmail.com](mailto:routj345@gmail.com)
+
+🔗 **LinkedIn:** https://www.linkedin.com/in/sunanda-rout-038091329/
+
+---
+
+# 🤝 Connect With Me
+
+If you like my projects or would like to collaborate, feel free to connect with me!
+
+⭐ **If you found this repository useful, please consider giving it a star!**
+
+---
+
+### 👨‍💻 Author
+
+**Sunanda Rout**
+*Aspiring Data Analyst | Python | SQL | Power BI | Data Visualization*
